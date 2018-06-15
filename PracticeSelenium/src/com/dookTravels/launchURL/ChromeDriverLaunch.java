@@ -15,6 +15,8 @@ public class ChromeDriverLaunch {
 		
 		driver.get("https://www.seleniumhq.org/download/");
 
+		driver.close();
+		
 	}
 
 }
